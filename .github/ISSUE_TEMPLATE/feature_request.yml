@@ -1,0 +1,33 @@
+name: 💡 Feature Request
+description: Propose a new feature, improvement, or idea for AuthShift
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to improve the developer experience with AuthShift? Let us know below!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Friction
+      description: Is your feature request related to a specific problem or friction in your workflow?
+      placeholder: I'm always frustrated when...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe how you would like this feature to work.
+      placeholder: It would be great if AuthShift could...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Describe any alternative solutions or workarounds you've evaluated.

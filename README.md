@@ -1,5 +1,9 @@
 # ⚡ AuthShift
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Manifest V3](https://img.shields.io/badge/Manifest-V3-success.svg)](https://developer.chrome.com/docs/extensions/mv3/intro/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 > **The Developer's 1-Click Auth, Session & RBAC Switcher**  
 > Hot-swap complete authentication states across **Cookies, LocalStorage, and SessionStorage** in < 200ms.
 
@@ -68,3 +72,25 @@ authshift/
 * `npm run dev` — Build with watch mode during development.
 * `npm run icons` — Regenerate PNG icon assets from Python.
 * `npm run pack` — Build and compress to `authshift.zip` for Web Store upload.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please check out [CONTRIBUTING.md](CONTRIBUTING.md) for local environment setup, architecture overview, and PR guidelines.
+
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+
+---
+
+## 🔒 Security
+
+For security policies and responsible vulnerability disclosures, please refer to [SECURITY.md](SECURITY.md).
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).  
+Copyright (c) 2026 Subodh Khanal.
+

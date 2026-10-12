@@ -1,7 +1,17 @@
 {
   "name": "authshift",
   "version": "1.0.0",
-  "description": "",
+  "description": "Instant 1-click auth, cookie & localStorage switcher for web developers and QA testing",
+  "author": "Subodh Khanal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prosubodh/authshift.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prosubodh/authshift/issues"
+  },
+  "homepage": "https://github.com/prosubodh/authshift#readme",
   "main": "index.js",
   "type": "module",
   "scripts": {
