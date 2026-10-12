@@ -1,0 +1,58 @@
+{
+  "manifest_version": 3,
+  "name": "AuthShift - 1-Click Auth & Session Switcher",
+  "version": "1.0.0",
+  "description": "Instant 1-click auth, cookie & localStorage switcher for web developers and QA testing.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "permissions": [
+    "cookies",
+    "storage",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "commands": {
+    "switch_persona_1": {
+      "suggested_key": {
+        "default": "Alt+Shift+1"
+      },
+      "description": "Switch to Persona 1"
+    },
+    "switch_persona_2": {
+      "suggested_key": {
+        "default": "Alt+Shift+2"
+      },
+      "description": "Switch to Persona 2"
+    },
+    "switch_persona_3": {
+      "suggested_key": {
+        "default": "Alt+Shift+3"
+      },
+      "description": "Switch to Persona 3"
+    },
+    "clean_session": {
+      "suggested_key": {
+        "default": "Alt+Shift+0"
+      },
+      "description": "Clean Session (Logged Out)"
+    }
+  }
+}
